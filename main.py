@@ -2,7 +2,7 @@ import random
 import telebot
 from telebot.types import ReactionTypeEmoji
 
-API_TOKEN = '7808074378:AAHxYHMinPfn7LbV_U4u7gqyPg7Nu3WRKHA'
+API_TOKEN = '<token>'
 bot = telebot.TeleBot(API_TOKEN)
 
 

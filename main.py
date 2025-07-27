@@ -18,4 +18,4 @@ def get_reactions(message):
     bot.reply_to(message, f"You changed the reaction from {[r.emoji for r in message.old_reaction]} to {[r.emoji for r in message.new_reaction]}")
 
 
-bot.infinity_polling(allowed_updates=['message', 'message_reaction'])
+bot.infinity_polling(allowed_updates=['message', 'message_reaction']) # Бесконечный опрос
